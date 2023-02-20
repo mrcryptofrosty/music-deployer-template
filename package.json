@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "frosty-sdk": "^0.2.11",
+    "frosty-sdk": "^0.2.12",
     "frosty-audio-player": "^1.0.0",
     "@hookform/error-message": "^2.0.0",
     "@hookform/resolvers": "^2.9.8",
