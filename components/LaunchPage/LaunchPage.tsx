@@ -9,7 +9,7 @@ const LaunchPage = (props: any) => {
       style={{ backgroundImage: "url('/images/bg.png')" }}
       className="bg-cover bg-right-bottom flex flex-col"
     >
-      <Image className="object-contain object-right-bottom pl-16" src="/images/landing-bg.png" fill alt="bg" />
+      <Image className="object-contain object-right-bottom pl-16" src="/images/landing-bg1.png" fill alt="bg" />
       <div className="min-h-screen grid md:grid-cols-2 grid-cols-1 relative">
         <div className="flex items-center justify-center">
           <div className="space-y-4">
