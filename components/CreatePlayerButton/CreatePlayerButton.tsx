@@ -72,7 +72,7 @@ const CreatePlayerButton = ({
       if (ipfsResponse?.error) throw ipfsResponse?.error;
 
       const baseAnimationUrl =
-        "https://cdn.warpsound.ai/ipfs/QmVYW5vHaV322Kvp2So5ErngP1PrDUneYqo4e9TNygAGSn?playlist-url=";
+        "https://fleek.ipfs.io/ipfs/bafybeib4y7cv7qwtpxub77zpogpgjc6k6bu3vax2t34hjkvspgpdkta4ja?playlist-url=";
       const playlistUrl = `https://nftstorage.link/ipfs/${ipfsResponse}`;
       setDeploymentStep(0);
 
