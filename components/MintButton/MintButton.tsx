@@ -18,7 +18,7 @@ const MintButton = ({ metadata, setDeploymentStep }: any) => {
   const router = useRouter();
 
   const isTestnet = () => {
-    return chain?.id === 80001 || chain?.id === 5 || chain?.id === 420;
+    return chain?.id === 80001 || chain?.id === 5 || chain?.id === 420 || chain?.id === 421613;
   };
 
   const getChainName = () => {
@@ -32,7 +32,10 @@ const MintButton = ({ metadata, setDeploymentStep }: any) => {
       return "optimism-goerli";
     }
   };
-
+    if (chain?.id === 421613) {
+      return "arbitrum-goerli";
+    }
+  };
   const onClick = async () => {
     if (!chain || !signer) {
       openConnectModal?.();
