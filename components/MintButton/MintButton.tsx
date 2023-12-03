@@ -31,7 +31,6 @@ const MintButton = ({ metadata, setDeploymentStep }: any) => {
     if (chain?.id === 420) {
       return "optimism-goerli";
     }
-  };
     if (chain?.id === 421613) {
       return "arbitrum-goerli";
     }
