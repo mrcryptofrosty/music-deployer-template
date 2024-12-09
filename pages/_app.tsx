@@ -21,6 +21,7 @@ const { chains, provider, webSocketProvider } = configureChains(
           chain.arbitrumRinkeby,
           chain.optimismGoerli,
           chain.arbitrumGoerli,
+          chain.sepolia,
         ]
       : []),
   ],
