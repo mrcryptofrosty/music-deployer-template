@@ -23,7 +23,7 @@ const LaunchPage = (props: any) => {
         <div className="flex items-center justify-center relative">
           <iframe
             className="w-[350px] h-[350px] rounded-lg z-10"
-            src="https://fleek.ipfs.io/ipfs/bafybeib4y7cv7qwtpxub77zpogpgjc6k6bu3vax2t34hjkvspgpdkta4ja?playlist-url=https://nftstorage.link/ipfs/bafkreieklxj3vzyv3bac7zyxqvq32altzw55hz5bktl7cydfojxxyikbc4"
+            src="https://nftstorage.link/ipfs/bafybeib4y7cv7qwtpxub77zpogpgjc6k6bu3vax2t34hjkvspgpdkta4ja?playlist-url=https://nftstorage.link/ipfs/bafkreieklxj3vzyv3bac7zyxqvq32altzw55hz5bktl7cydfojxxyikbc4"
           />
         </div>
       </div>
