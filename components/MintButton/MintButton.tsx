@@ -18,7 +18,7 @@ const MintButton = ({ metadata, setDeploymentStep }: any) => {
   const router = useRouter();
 
   const isTestnet = () => {
-    return chain?.id === 80001 || chain?.id === 5 || chain?.id === 420 || chain?.id === 421613;
+    return chain?.id === 80001 || chain?.id === 5 || chain?.id === 420 || chain?.id === 421613 || chain?.id === 11155111;
   };
 
   const getChainName = () => {
@@ -33,6 +33,9 @@ const MintButton = ({ metadata, setDeploymentStep }: any) => {
     }
     if (chain?.id === 421613) {
       return "arbitrum-goerli";
+    }
+    if (chain?.id === 11155111) {
+      return "sepolia";
     }
   };
   const onClick = async () => {
